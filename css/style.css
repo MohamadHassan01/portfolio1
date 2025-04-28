@@ -4,6 +4,10 @@ body {
     font-family: "poppins", sans-serif;
     background-color: black;
     font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
     
 }
 header {
@@ -25,7 +29,7 @@ nav {
 a {
     color: white;
     text-decoration: none;
-    transition: 0.4s;
+    transition: 0.3s;
     padding-bottom: 3px;
 }
 p{
@@ -49,9 +53,11 @@ h3{
     font-size: 30px;
 }
 img{
-    width: 60%;
+    width: 53%;
 }
 section{
+    position: absolute;
+    top: 316%;
 
     display: flex;
     align-items: center;
